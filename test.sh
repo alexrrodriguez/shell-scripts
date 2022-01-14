@@ -15,11 +15,5 @@ echo "what is your name?"
 read PERSON
 echo "Hello, $PERSON"
 
-# special variables
 
-# filename of current script
-echo $0
-
-# print out the PID of the current shell
-echo $$
 

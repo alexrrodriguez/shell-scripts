@@ -7,3 +7,6 @@ echo "Second Parameter : $2"
 echo "Quoted Values: $@"
 echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"
+
+# exit status variable, 0 is successful, 1 is unsuccessful
+echo $?
