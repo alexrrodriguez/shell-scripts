@@ -23,11 +23,11 @@ groupadd developers
 # modify a group
 groupmod -n new_modified_group old_group
 
-# change developer_2 group name to developer
-groupmod -n developer developer_2
+# change developers group name to developer
+groupmod -n developer developers
 
 # change the groupID (GID)
-groupmod -g 545 developer
+groupmod -g 1002 developer
 
 
 # delete a group
@@ -37,7 +37,7 @@ groupdel developer
 # create an account syntax
 # useradd -d homedir -g groupname -m -s shell -u userid accountname
 # following example creates an account tom
-useradd -d /home/tom -g developers -s /bin/ksh tom
+useradd -d /home/tom -g developer -s /bin/ksh tom
 
 # after user is created, can set password using passwd command
 passwd tom20
